@@ -22,9 +22,8 @@ export default {
 
 .card_container{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 3rem;
-  align-items: stretch;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px 10px;
 }
 
 .card_container img{
@@ -37,12 +36,13 @@ export default {
   display: flex;
   flex-direction: column;
   background-color: white;
-  border: 1px solid  gray;
+  border: 2px solid  gray;
   border-radius: 5px;
-  box-shadow: none;
-  transition: all 0.3s ease-in-out;
-  padding-bottom: 20px;
-  width: 300px
+  box-shadow: 0 3px 5px  0;
+  width: 300px;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: #09a073;
 }
 
 .card_details{
