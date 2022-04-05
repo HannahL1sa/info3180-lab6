@@ -1,14 +1,17 @@
 <script>
+import NewsList from '@/components/NewsList.vue'
 export default {
     data() {
         return {
-            message: "Hello World! Welcome to VueJS"
+            message: "Hello Hannah-Lisa!"
         };
     },
+    components: { NewsList }
 }
 </script>
 
 <template>
+<NewsList />
     <div class="container">
       <div class="text-center">
         <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
